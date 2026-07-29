@@ -25,10 +25,9 @@ function Task2() {
 
         <button
           onClick={() => setCount(count - 1)}
-          Decrease
           disabled={count === 0}
         >
-          
+          Decrease
         </button>
 
         <button onClick={() => setCount(0)}>
